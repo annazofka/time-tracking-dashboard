@@ -14,13 +14,7 @@ export const MetricsContainer = () => {
 	return (
 		<section>
 			{metrics.map(metricData => (
-				<Metric
-					key={metricData.title}
-					title={metricData.title}
-					time={metricData.time}
-					lastWeekTime={metricData.lastWeekTime}
-					backgroundColour={metricData.backgroundColour}
-				/>
+				<Metric key={metricData.title} metricData={metricData} />
 			))}
 		</section>
 	);
