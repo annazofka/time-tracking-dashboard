@@ -12,7 +12,7 @@ const metrics = [
 
 export const MetricsContainer = () => {
 	return (
-		<section>
+		<section >
 			{metrics.map(metricData => (
 				<Metric key={metricData.title} metricData={metricData} />
 			))}

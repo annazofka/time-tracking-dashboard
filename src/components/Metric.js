@@ -1,5 +1,4 @@
 export const Metric = props => {
-	console.log(props.title);
 	const {
 		metricData: { title, time, lastWeekTime, backgroundColour },
 	} = props;
