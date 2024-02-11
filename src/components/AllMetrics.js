@@ -1,5 +1,7 @@
 import React from 'react';
 import { Metric } from './Metric';
+import './AllMetrics.css';
+// import classes from './AllMetrics.modules.css';
 
 const metrics = [
 	{ title: 'Work', time: '32hrs', lastWeekTime: '36hrs', backgroundColour: 'hsl(15,100%,70%)' },
@@ -12,7 +14,7 @@ const metrics = [
 
 export const MetricsContainer = () => {
 	return (
-		<section >
+		<section className='metrics-container'>
 			{metrics.map(metricData => (
 				<Metric key={metricData.title} metricData={metricData} />
 			))}

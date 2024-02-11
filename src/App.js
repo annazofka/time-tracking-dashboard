@@ -6,8 +6,10 @@ import { NameCardContainer } from './components/NameCard';
 function App() {
 	return (
 		<div className='App'>
-			<NameCardContainer />
-			<MetricsContainer />
+			<div className='main-container'>
+				<NameCardContainer />
+				<MetricsContainer />
+			</div>
 		</div>
 	);
 }
