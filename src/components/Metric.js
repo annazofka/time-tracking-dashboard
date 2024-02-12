@@ -7,10 +7,12 @@ export const Metric = props => {
 
 	return (
 		<section className='single-metric-container'>
-			<div style={{ height: 20, backgroundColor: backgroundColour }}></div>
-			<h2>{title}</h2>
-			<p>{time}</p>
-			<p>{lastWeekTime}</p>
+			<div className='colour-label' style={{ backgroundColor: backgroundColour }}></div>
+			<div className='single-metric-card'>
+				<h2>{title}</h2>
+				<p>{time}</p>
+				<p>{lastWeekTime}</p>
+			</div>
 		</section>
 	);
 };
