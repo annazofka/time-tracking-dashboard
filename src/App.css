@@ -27,12 +27,12 @@ body {
 }
 
 .main-container > section {
-	background-color: hsl(235, 46%, 20%);
 	border-radius: 25px;
 }
 
 .main-container > section:nth-child(1) {
 	grid-column: 1 / span 1;
+	background-color: hsl(235, 46%, 20%);
 }
 
 .main-container > section:nth-child(2) {

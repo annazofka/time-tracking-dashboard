@@ -1,11 +1,7 @@
 .name-container {
-	/* display: grid; */
-
 	border-radius: 14px;
-	/* padding: 30px; */
 	display: flex;
 	flex-direction: column;
-	/* gap: 1rem; */
 }
 
 .name-and-background {
@@ -14,6 +10,7 @@
 	border-radius: 14px;
 	padding: 30px;
 	gap: 1rem;
+	height: 354px;
 }
 
 .name-and-background h2:nth-child(1) {
@@ -41,14 +38,17 @@ img {
 .period-metrics {
 	display: flex;
 	flex-direction: column;
-	padding: 28px;
+	align-items: start;
+	padding: 30px;
+	gap: 26px;
 }
 
 .period-metrics button {
 	color: white;
 	background-color: transparent;
 	border: none;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: bold;
 	color: hsl(235, 45%, 61%);
+	cursor: pointer;
 }
