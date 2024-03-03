@@ -35,10 +35,24 @@
 	cursor: pointer;
 }
 
+.single-metric-card-menu {
+	display: flex;
+	justify-content: space-between;
+}
+
 .three-dots {
 	width: 20px;
 	height: 15px;
 	object-fit: contain;
 	cursor: pointer;
 	border: none;
+}
+
+.this-week-metric {
+	font-size: 56px;
+	font-weight: lighter;
+}
+
+.last-week-metric {
+	font-size: 15px;
 }

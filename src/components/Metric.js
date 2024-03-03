@@ -11,10 +11,12 @@ export const Metric = props => {
 				<img src={imgFile} alt='background-image' />
 			</div>
 			<div className='single-metric-card'>
-				<h2>{title}</h2>
-				<img className='three-dots' src='assets/icon-ellipsis.svg' alt='three-dots' />
-				<p>{time}</p>
-				<p>{lastWeekTime}</p>
+				<div className='single-metric-card-menu'>
+					<h2>{title}</h2>
+					<img className='three-dots' src='assets/icon-ellipsis.svg' alt='three-dots' />
+				</div>
+				<p className='this-week-metric'>{time}</p>
+				<p className='last-week-metric'>Last Week - {lastWeekTime}</p>
 			</div>
 		</section>
 	);
